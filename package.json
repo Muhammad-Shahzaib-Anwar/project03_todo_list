@@ -1,9 +1,10 @@
 {
-  "name": "es_modules",
-  "version": "1.0.0",
+  "name": "@mshahzaibanwar/todo-list",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "type":"module",
+  "publishConfig": {"access": "public"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
+  },
+  "bin": {
+    "mshahzaibanwar-todo-list": "./app.js"
   }
 }
